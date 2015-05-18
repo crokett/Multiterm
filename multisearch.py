@@ -30,7 +30,7 @@ class MultiTermSearch:
     def __init__(self):
         print("running")
 		#set the glade file
-        self.gladefile = "/home/crokett/Data/Projects/Glade/MultiTerm2.glade"
+        self.gladefile = "MultiTerm2.glade"
         print("Gladefile is: self.gladefile")
         #self.wTree = gtk.glade.XML(self.gladefile)
         # try gtk file
