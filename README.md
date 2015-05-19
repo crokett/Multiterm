@@ -7,11 +7,14 @@ Multiterm allows the user search a file or files for all the terms in a single s
 Once the search terms are found the user can click on any hits in the results window to be taken to that point in the file.
 
 Requirements:
-Geany
-The GeanyPy Plugin
+Geany, Python, The GeanyPy Plugin
+
+On Fedora Linux:
+
+yum install geany geany-plugins-geanypy
 
 Installation:
 Download Analyzer.py, Multiterm2.glade and Multisearch.py
 
-Place all 3 files in the GeanyPy plugins directory.  On Linux this path is:
+Place all 3 files in the GeanyPy plugins directory.  On Fedora Linux this path is:
 ~/.config/geany/geanypy/plugins
